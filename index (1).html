@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Rounded Title Bar -->
+    <div class="title-bar"></div>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#category-section">Category</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+        <li><a href="#about-section">About</a></li> <!-- Added About Button -->
+      </ul>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="content">
+      <div class="text-section">
+        <h1>Welcome To <span>Alveyn</span></h1>
+        <h2>Clothings <span>!</span></h2>
+      </div>
+      
+      <!-- Color Options -->
+      <div class="color-options">
+        <div class="color-circle black" data-color="black"></div>
+        <div class="color-circle green" data-color="green"></div>
+        <div class="color-circle red" data-color="red"></div>
+      </div>
+
+      <!-- Animated Order Button -->
+      <button class="order-btn" onclick="window.open('https://wa.me/01753889506', '_blank')">
+        Order Now
+        </button>
+    </div>
+
+    <!-- Product Image Section -->
+    <div class="product-section">
+      <img src="https://assets.onecompiler.app/432msvwap/432n7dge4/man-woman-looking-each-other.jpg" alt="Black Product" class="product-image" data-color="black">
+      <img src="https://assets.onecompiler.app/432msvwap/432n7dge4/woman-holding-her-skateboard-while-sitting-car.jpg" alt="Green Product" class="product-image" data-color="green">
+      <img src="https://assets.onecompiler.app/432msvwap/432n7dge4/medium-shot-man-posing.jpg" alt="Red Product" class="product-image" data-color="red">
+    </div>
+
+    <!-- Category Section with Background -->
+    <div id="category-section" class="category-section">
+      <h2>Category</h2>
+      <p>Coming soon...</p>
+    </div>
+
+    <!-- About Section -->
+    <div id="about-section" class="about-section">
+      <h2>About Alveyn</h2>
+      <p>Alveyn is a clothing brand dedicated to providing the best fashion choices. We blend comfort and style to create unique, modern outfits for every occasion. Our mission is to offer high-quality clothing that makes you feel confident and stylish. With a focus on quality materials, cutting-edge designs, and affordable prices, Alveyn is the go-to choice for fashion-forward individuals.</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact-section" class="contact-section">
+      <h2>Contact Us</h2>
+      <p>If you have any questions, feel free to reach out to us.</p>
+      <button class="whatsapp-btn" onclick="window.open('https://wa.me/01753889506', '_blank')">
+        Contact on WhatsApp
+      </button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
