@@ -1,37 +1,25 @@
-
-
-  <!-- FAB Button -->
-  <div class="fab-container">
-    <button class="fab" id="fabBtn" onclick="toggleMenu()">
-      <span class="fab-icon" id="fabIcon">&#43;</span> <!-- Shortcut Icon for FAB -->
-    </button>
-
-    <!-- Circular Navbar -->
-    <div class="circular-navbar" id="circularNavbar">
-      <a href="#" class="nav-option" onclick="scrollToTop()">Home</a>
-
-      <a href="#about-section" class="nav-option">About</a>
-      <a href="#contact-section" class="nav-option">Contact</a>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+  <title>Product Navigation</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  
+
   <div class="container">
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search for a category (e.g., Hoodie, Jacket)" />
+      <button id="searchButton">Search</button>
+    </div>
     <!-- Content Section -->
+  <div class="container">
     <div class="content">
       <div class="text-section">
-        <h1>Welcome To <span>Alveyn</span></h1>
+        <h1 id="main-title">Welcome To <span>Alveyn</span></h1>
         <h2>Clothings</h2>
       </div>
       <div class="button-section">
@@ -40,27 +28,26 @@
         </button>
       </div>
     </div>
-
-    <!-- Product Image Section -->
+     <!-- Product Image Section -->
     <div class="product-section">
       <div class="product-item">
-        <img src="https://assets.onecompiler.app/432msvwap/432n7dge4/woman-holding-her-skateboard-while-sitting-car.jpg" alt="Product Image 1" class="product-image">
+        <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Product Image 1" class="product-image">
         <div class="product-info">
-          <h3>Skateboard Style</h3>
+          <h3>Special Item 1</h3>
           <p>Price: TBA</p>
         </div>
       </div>
       <div class="product-item">
-        <img src="https://assets.onecompiler.app/432msvwap/432n7dge4/medium-shot-man-posing.jpg" alt="Product Image 2" class="product-image">
+        <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Product Image 2" class="product-image">
         <div class="product-info">
-          <h3>Casual Outfit</h3>
+          <h3>Special Item 2</h3>
           <p>Price: TBA</p>
         </div>
       </div>
       <div class="product-item">
-        <img src="https://assets.onecompiler.app/432msvwap/432n7dge4/man-woman-looking-each-other.jpg" alt="Product Image 3" class="product-image">
+        <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Product Image 3" class="product-image">
         <div class="product-info">
-          <h3>Modern Duo</h3>
+          <h3>Special Item 3</h3>
           <p>Price: TBA</p>
         </div>
       </div>
@@ -74,7 +61,231 @@
       <p>Alveyn is a clothing brand dedicated to providing the best fashion choices. We blend comfort and style to create unique, modern outfits for every occasion.</p>
     </div>
 
-    
+    <!-- Product Sections -->
+    <div id="hoodie" class="category-image-section">
+      <h3>Hoodies</h3>
+      <div class="image-grid">
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie 1">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+        </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="jacket" class="category-image-section">
+      <h3>Jackets</h3>
+      <div class="image-grid">
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Jacket 1">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+        </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Jacket 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Jacket 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Jacket 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Jacket 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shacket Section -->
+    <div id="shacket" class="category-image-section">
+      <h3>Shackets</h3>
+      <div class="image-grid">
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shacket 1">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+        </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shacket 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shacket 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shacket 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shacket 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sneakers Section -->
+    <div id="sneakers" class="category-image-section">
+      <h3>Sneakers</h3>
+      <div class="image-grid">
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Sneakers 1">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+        </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Sneakers 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Sneakers 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Sneakers 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Sneakers 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- T-Shirts Section -->
+    <div id="tshirts" class="category-image-section">
+      <h3>T-Shirts</h3>
+      <div class="image-grid">
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="T-Shirt 1">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+        </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="T-Shirt 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="T-Shirt 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="T-Shirt 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="T-Shirt 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shirts Section -->
+    <div id="shirts" class="category-image-section">
+      <h3>Shirts</h3>
+      <div class="image-grid">
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shirt 1">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+        </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shirt 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shirt 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shirt 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+          </div>
+        <div class="image-card">
+          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shirt 2">
+          <p>Price - TBA</p>
+          <p>Stay Tuned and wait for products to be uploaded.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+  <!-- Bottom Navigation Bar -->
+  <nav class="bottom-navbar">
+    <a href="#" class="nav-item active">
+      <span class="nav-icon">&#127968;</span> <!-- Home Icon -->
+      <span class="nav-label">Home</span>
+    </a>
+    <a href="#about-section" class="nav-item">
+      <span class="nav-icon">&#128100;</span> <!-- About Icon -->
+      <span class="nav-label">About</span>
+    </a>
+    <a href="#contact-section" class="nav-item">
+      <span class="nav-icon">&#128233;</span> <!-- Contact Icon -->
+      <span class="nav-label">Contact</span>
+    </a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+    <!-- Product Section, About Section, etc. -->
+    <!-- Keep existing content here -->
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
 
   <script src="script.js"></script>
 </body>
@@ -90,205 +301,15 @@
 </head>
 <body>
   <div class="container">
-    
-
-    <!-- Hoodie Section -->
-    <div id="hoodie" class="category-image-section">
-      <h3>Hoodies</h3>
-      <div class="image-grid">
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 1">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 3">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 4">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 5">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-      </div>
-    </div>
-    <!-- Jacket Section -->
-    <div id="Jacket" class="category-image-section">
-      <h3>Jackets</h3>
-      <div class="image-grid">
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 1">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 3">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 4">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 5">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-      </div>
-    </div>
-    <!-- Shacket Section -->
-    <div id="Shacket" class="category-image-section">
-      <h3>Shackets</h3>
-      <div class="image-grid">
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 1">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 3">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 4">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 5">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-      </div>
-    </div>
-    <!-- Sneakers Section -->
-    <div id="Sneakers" class="category-image-section">
-      <h3>Sneakers</h3>
-      <div class="image-grid">
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 1">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 3">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 4">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 5">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-      </div>
-    </div>
-    <!-- T-Shirts Section -->
-    <div id="T-Shirts" class="category-image-section">
-      <h3>T-Shirt</h3>
-      <div class="image-grid">
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 1">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 3">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 4">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 5">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-      </div>
-    </div>
-    <!-- Shirts Section -->
-    <div id="Shirts" class="category-image-section">
-      <h3>Shirts</h3>
-      <div class="image-grid">
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 1">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 3">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 4">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie Image 5">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Add more sections here (Jacket, Shacket, Sneakers, T-Shirts, Shirts) with the same structure -->
-
   </div>
   <!-- Contact Section -->
     <div id="contact-section" class="contact-section">
       <h2>Contact Us</h2>
+      <h2>Phone: 09678917593</h2>
+      
       <button class="whatsapp-btn" onclick="window.open('https://api.whatsapp.com/send?phone=8801753889506')">Contact on WhatsApp</button>
-        <p>Hotline: 09678917593</p>
     </div>
-    
+  </div>
 
   <script src="script.js"></script>
 </body>
