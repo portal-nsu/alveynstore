@@ -1,316 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Navigation</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alveynclothingsofficial-Header</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
+    <!-- Header -->
+    <header>
+        <!-- Hamburger Menu -->
+        <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- ALVEYN Logo -->
+        <div class="logo">ALVEYN</div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu" id="navMenu">
+    <ul>
+        <li><a href="#home">Featured Collection</a></li>
+        <li><a href="#featured">Home</a></li>
+        <li><a href="#your-style">Style</a></li>
+        <li><a href="#fashion-finds">Fashion Finds</a></li>
+        <li><a href="#instagram">Instagram Feed</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+</nav>
+    </header>
+
+ 
+
+    
+    <section class="hero">
+        <h1>DIVE INTO A WORLD OF ENDLESS <span>FASHION POSSIBILITIES</span></h1>
+        <p>Elevate Your Wardrobe With Our Fashion Finds. Discover Your Signature Style At Alveyn.</p>
+        <div class="hero-buttons">
+            <button>Shop Now</button>
+            <button>Explore More Products</button>
+        </div>
+        <div class="hero-images">
+            <img src="https://assets.onecompiler.app/432msvwap/432n7dge4/medium-shot-man-posing.jpg" alt="Model 1">
+            <img src="https://assets.onecompiler.app/432msvwap/432n7dge4/man-woman-looking-each-other.jpg" alt="Model 2">
+            <div class="price-tag">$TBA</div>
+        </div>
+    </section>
+
   
-
-  <div class="container">
-    <!-- Search Bar -->
-    <div class="search-bar">
-      <input type="text" id="searchInput" placeholder="Search for a category (e.g., Hoodie, Jacket)" />
-      <button id="searchButton">Search</button>
+     <section id="home" class="hero">
+    <h2>FEATURED <span>COLLECTION</span></h2>
+    <p class="collection-description">Discover our most loved styles, handpicked for you. Shop now and elevate your fashion game!</p>
+    <div class="collection-gallery">
+        <div class="collection-item">
+            <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Collection 1">
+            <div class="collection-overlay">
+                <p>Trendy Jackets</p>
+                <button class="shop-now">Shop Now</button>
+            </div>
+        </div>
+        <div class="collection-item">
+            <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Collection 2">
+            <div class="collection-overlay">
+                <p>Elegant Dresses</p>
+                <button class="shop-now">Shop Now</button>
+            </div>
+        </div>
+        <div class="collection-item">
+            <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Collection 3">
+            <div class="collection-overlay">
+                <p>Bold Streetwear</p>
+                <button class="shop-now">Shop Now</button>
+            </div>
+        </div>
+        <div class="collection-item">
+            <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Collection 4">
+            <div class="collection-overlay">
+                <p>Stylish Casuals</p>
+                <button class="shop-now">Shop Now</button>
+            </div>
+        </div>
     </div>
-    <!-- Content Section -->
-  <div class="container">
-    <div class="content">
-      <div class="text-section">
-        <h1 id="main-title">Welcome To <span>Alveyn</span></h1>
-        <h2>Clothings</h2>
-      </div>
-      <div class="button-section">
-        <button class="order-btn" onclick="window.open('https://www.facebook.com/profile.php?id=61569877754982')">
-          Order Now
-        </button>
-      </div>
+</section>
+
+
+    <section id="fashion-finds" class="explore">
+    <div class="explore-content">
+        <div class="explore-text">
+            <h2>ELEVATE YOUR WARDROBE WITH OUR <span>FASHION FINDS</span></h2>
+            <p>Discover the perfect outfit for every occasion. Browse through our handpicked collections and redefine your style today!</p>
+            <button class="cta-button">Explore More</button>
+        </div>
+        <div class="explore-images">
+            <div class="explore-card">
+                <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Look 1">
+                <div class="card-caption">Effortless Casual</div>
+            </div>
+            <div class="explore-card">
+                <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Look 2">
+                <div class="card-caption">Formal Elegance</div>
+            </div>
+            <div class="explore-card">
+                <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Look 3">
+                <div class="card-caption">Bold Streetwear</div>
+            </div>
+        </div>
     </div>
-     <!-- Product Image Section -->
-    <div class="product-section">
-      <div class="product-item">
-        <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Product Image 1" class="product-image">
-        <div class="product-info">
-          <h3>Special Item 1</h3>
-          <p>Price: TBA</p>
+</section>
+
+
+   <!-- Fashion at Fingertips -->
+<section class="fingertips">
+    <h2>FASHION AT YOUR <span>FINGERTIPS</span></h2>
+    <p>1200+ Awesome Collections | Express Yourself Through Fashion</p>
+    <div class="fingertips-gallery">
+        <div class="card">
+            <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Casual Collection">
+            <div class="card-content">
+                <h3>Casual Collection</h3>
+                <p>Effortless style for every occasion.</p>
+                <button>Explore Now</button>
+            </div>
         </div>
-      </div>
-      <div class="product-item">
-        <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Product Image 2" class="product-image">
-        <div class="product-info">
-          <h3>Special Item 2</h3>
-          <p>Price: TBA</p>
+        <div class="card">
+            <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Formal Attire">
+            <div class="card-content">
+                <h3>Formal Attire</h3>
+                <p>Stand out with premium quality suits.</p>
+                <button>Explore Now</button>
+            </div>
         </div>
-      </div>
-      <div class="product-item">
-        <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Product Image 3" class="product-image">
-        <div class="product-info">
-          <h3>Special Item 3</h3>
-          <p>Price: TBA</p>
+        <div class="card">
+            <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Streetwear Vibes">
+            <div class="card-content">
+                <h3>Streetwear Vibes</h3>
+                <p>Stay trendy with bold street fashion.</p>
+                <button>Explore Now</button>
+            </div>
         </div>
-      </div>
     </div>
+</section>
 
 
+    <!-- Your Style Section -->
+    <section class="your-style" id="your-style">
+        <div class="style-content">
+            <div class="style-text">
+                <h2>YOUR STYLE <span>YOUR RULES</span></h2>
+                <p>Empower Your Fashion. Be Bold. Be You. Discover outfits that resonate with your unique identity.</p>
+                <button class="cta-button">Shop Now</button>
+            </div>
+            <div class="style-images">
+                <div class="image-card">
+                    <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Style 1">
+                    <div class="image-caption">Casual Vibes</div>
+                </div>
+                <div class="image-card">
+                    <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Style 2">
+                    <div class="image-caption">Chic Elegance</div>
+                </div>
+                <div class="image-card">
+                    <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Style 3">
+                    <div class="image-caption">Bold & Beautiful</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- About Section -->
-    <div id="about-section" class="about-section">
-      <h2>About Alveyn</h2>
-      <p>Alveyn is a clothing brand dedicated to providing the best fashion choices. We blend comfort and style to create unique, modern outfits for every occasion.</p>
+
+    <!-- Instagram Feed Section -->
+<section id="instagram" class="instagram-feed">
+    <div class="instagram-header">
+        <h2>OUR <span>INSTAGRAM</span> FEED</h2>
+        <p>Follow us on Instagram and stay updated with our latest styles.</p>
     </div>
-
-    <!-- Product Sections -->
-    <div id="hoodie" class="category-image-section">
-      <h3>Hoodies</h3>
-      <div class="image-grid">
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie 1">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
+    <div class="instagram-gallery">
+        <div class="insta-item">
+            <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Instagram 1">
         </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Hoodie 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
+        <div class="insta-item">
+            <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Instagram 2">
         </div>
-      </div>
+        <div class="insta-item">
+            <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Instagram 3">
+        </div>
+        <div class="insta-item">
+            <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Instagram 4">
+        </div>
+        <div class="insta-item">
+            <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Instagram 5">
+        
     </div>
+</section>
 
-    <div id="jacket" class="category-image-section">
-      <h3>Jackets</h3>
-      <div class="image-grid">
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Jacket 1">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Jacket 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Jacket 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Jacket 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Jacket 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-      </div>
-    </div>
 
-    <!-- Shacket Section -->
-    <div id="shacket" class="category-image-section">
-      <h3>Shackets</h3>
-      <div class="image-grid">
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shacket 1">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
+    <!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <!-- Company Information Section -->
+        <div class="footer-section">
+            <div class="footer-logo">ALVEYN</div>
+            <p>Elevate Your Wardrobe With Our Fashion Finds</p>
         </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shacket 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shacket 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shacket 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shacket 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-      </div>
-    </div>
 
-    <!-- Sneakers Section -->
-    <div id="sneakers" class="category-image-section">
-      <h3>Sneakers</h3>
-      <div class="image-grid">
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Sneakers 1">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
+        <!-- Contact Information Section -->
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>Email: <a href="mailto:alveynclothing@gmail.com">alveynclothing@gmail.com</a></p>
+            <p>Phone: <a href="tel:+09678917593">09678917593</a></p>
+            <p>Address: Mirpur-2, Dhaka, Bangladesh</p>
         </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Sneakers 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Sneakers 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Sneakers 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Sneakers 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
+
+        <!-- Social Media Section -->
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+                <a href="https://www.instagram.com/alveynclothingsofficial" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/share/1JTmeWbMdt/?mibextid=wwXIfr" target="_blank">Facebook</a>
+            </div>
         </div>
-      </div>
     </div>
 
-    <!-- T-Shirts Section -->
-    <div id="tshirts" class="category-image-section">
-      <h3>T-Shirts</h3>
-      <div class="image-grid">
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="T-Shirt 1">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="T-Shirt 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="T-Shirt 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="T-Shirt 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="T-Shirt 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-      </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 ALVEYN. All rights reserved.</p>
     </div>
+</footer>
 
-    <!-- Shirts Section -->
-    <div id="shirts" class="category-image-section">
-      <h3>Shirts</h3>
-      <div class="image-grid">
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shirt 1">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shirt 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shirt 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shirt 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-          </div>
-        <div class="image-card">
-          <img src="https://assets.onecompiler.app/432msvwap/432mr7m28/Screenshot%202024-12-11%20at%2011.22.05%20PM.png" alt="Shirt 2">
-          <p>Price - TBA</p>
-          <p>Stay Tuned and wait for products to be uploaded.</p>
-        </div>
-      </div>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-button">
+        <a href="https://wa.me/01753889506?text=Hello%20Alveyn%20Clothing!" target="_blank">
+            <img src="https://assets.onecompiler.app/432msvwap/432n7dge4/pngwing.com%20(15).png" alt="WhatsApp">
+        </a>
     </div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-</html>
-
-
-
-  <!-- Bottom Navigation Bar -->
-  <nav class="bottom-navbar">
-    <a href="#" class="nav-item active">
-      <span class="nav-icon">&#127968;</span> <!-- Home Icon -->
-      <span class="nav-label">Home</span>
-    </a>
-    <a href="#about-section" class="nav-item">
-      <span class="nav-icon">&#128100;</span> <!-- About Icon -->
-      <span class="nav-label">About</span>
-    </a>
-    <a href="#contact-section" class="nav-item">
-      <span class="nav-icon">&#128233;</span> <!-- Contact Icon -->
-      <span class="nav-label">Contact</span>
-    </a>
-  </nav>
-
-  <script src="script.js"></script>
-</body>
-</html>
-
-    <!-- Product Section, About Section, etc. -->
-    <!-- Keep existing content here -->
-
-  </div>
-  <script src="script.js"></script>
-</body>
-</html>
-
-  <script src="script.js"></script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Category Sections</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-  </div>
-  <!-- Contact Section -->
-    <div id="contact-section" class="contact-section">
-      <h2>Contact Us</h2>
-      <h2>Phone: 09678917593</h2>
-      
-      <button class="whatsapp-btn" onclick="window.open('https://api.whatsapp.com/send?phone=8801753889506')">Contact on WhatsApp</button>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-</html>
+</footer>
